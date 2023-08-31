@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/logo-small-ico.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Acceuil</title>
+</head>
+<body>
+
+    <div class="hider">
+        <img class="hider__image" src="./assets/logo.svg" alt="Logo">
+    </div>
+
+    <header class="header">
+        <div class="header__pictureContainer">
+            <picture class="header__pictureContainer-picture">
+                <img src="assets/logo.svg" alt="Logo ICP">
+            </picture>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-element">
+                    <a href="index.html" class="header__nav-list-element-anchor header__nav-list-element-anchor--choosed">Accueil</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="blogs.html" class="header__nav-list-element-anchor">Mes blog</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="http://matthieu.icplogiciel.fr" class="header__nav-list-element-anchor">Le site</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="a-propos.html" class="header__nav-list-element-anchor">A propos de moi</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="small-header">
+        <div class="small-header__pictureContainer">
+            <picture class="small-header__pictureContainer-picture">
+                <img src="assets/logo-small.svg" alt="Logo ICP">
+            </picture>
+        </div>
+        <nav class="small-header__nav">
+            <ul class="small-header__nav-list">
+                <li class="header__nav-list-element">
+                    <a href="index.html" class="header__nav-list-element-anchor header__nav-list-element-anchor--choosed">Accueil</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="blogs.html" class="header__nav-list-element-anchor">Blog</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="http://matthieu.icplogiciel.fr" class="header__nav-list-element-anchor">Site</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="a-propos.html" class="header__nav-list-element-anchor">A propos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <Section class="section section--hero">
+        <div class="section__card section__card--hero" data-ishero="true">
+            <h2 class="section__card-title section__card-title--hero"> 
+                Présentation
+            </h2>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Bonjour, je suis <b>Matthieu BERGER</b>, étudiant en informatique et je vous souhaite la bienvenue sur mon blog !<br>
+                Celui-ci a été créé dans le cadre de mon stage de 2e année d'informatique a fin de la validée.
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Vous allez pouvoir trouver mes posts liés à mon stage dans la séction <a href="">"Mes blogs"</a>.
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Ainsi que le site web final sur ce site dans la séction <a href="">"Le site"</a>.
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Si vous êtes plus curieux, vous pouvez apprendre à me connaître via la séction <a href="">"A propos de moi"</a>.
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Mon github, linkedIn et mon adresse mail pro sont disponible dans le footer en bas de la page.    
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Sur ce, je vous souhaite une bonne visite de mon blog.    
+            </p>
+        </div>
+    </Section>
+
+    <section class="section">
+        <div class="section__card">
+            <h2 class="section__card-title">
+                Navigation
+            </h2>
+            <div class="section__card-grid">
+                <div class="section__card-grid-card section__card-grid-card--hover" onclick="window.location.replace('index.html');">
+                    <h3 class="section__card-grid-card-title">Accueil</h3>
+                </div>
+                <div class="section__card-grid-card section__card-grid-card--hover" onclick="window.location.replace('blogs.html');">
+                    <h3 class="section__card-grid-card-title">Mes blog</h3>
+                </div>
+                <div class="section__card-grid-card section__card-grid-card--hover" onclick="window.location.replace('http://matthieu.icplogiciel.fr');">
+                    <h3 class="section__card-grid-card-title">Le site</h3>
+                </div>
+                <div class="section__card-grid-card section__card-grid-card--hover" onclick="window.location.replace('a-propos.html');">
+                    <h3 class="section__card-grid-card-title">A propos de moi</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__pictureContainer">
+            <picture class="footer__pictureContainer-picture">
+                <img src="assets/logo-small-white.svg" alt="Llogo petit">
+            </picture>
+        </div>
+        <ul class="footer__contactList">
+            <li class="footer__contactList-element">
+                <img class="footer__contactList-element-image" src="assets/github.png" alt="logo telephone">
+                <p class="footer__contactList-element-paragraph"><a href="https://github.com/BERGER-Matthieu">BERGER-Matthieu</a></p>
+            </li>
+            <li class="footer__contactList-element">
+                <img class="footer__contactList-element-image" src="assets/Mail.png" alt="logo mail">
+                <p class="footer__contactList-element-paragraph">matthieu.berger@ynov.com</p>
+            </li>
+            <li class="footer__contactList-element">
+                <img class="footer__contactList-element-image" src="assets/LinkedIn.png" alt="logo address">
+                <p class="footer__contactList-element-paragraph"><a href="https://www.linkedin.com/in/matthieu-berger-8697a8235/">Matthieu Berger</a></p>
+            </li>
+        </ul>
+</footer>
+</body>
+</html>
+<script src="js/front.js" type="module"></script>

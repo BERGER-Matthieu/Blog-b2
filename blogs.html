@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/logo-small-ico.ico">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Acceuil</title>
+</head>
+<body>
+
+    <div class="hider">
+        <img class="hider__image" src="./assets/logo.svg" alt="Logo">
+    </div>
+
+    <header class="header">
+        <div class="header__pictureContainer">
+            <picture class="header__pictureContainer-picture">
+                <img src="assets/logo.svg" alt="Logo ICP">
+            </picture>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-list-element">
+                    <a href="index.html" class="header__nav-list-element-anchor header__nav-list-element-anchor--choosed">Accueil</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="blogs.html" class="header__nav-list-element-anchor">Mes blog</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="http://matthieu.icplogiciel.fr" class="header__nav-list-element-anchor">Le site</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="a-propos.html" class="header__nav-list-element-anchor">A propos de moi</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="small-header">
+        <div class="small-header__pictureContainer">
+            <picture class="small-header__pictureContainer-picture">
+                <img src="assets/logo-small.svg" alt="Logo ICP">
+            </picture>
+        </div>
+        <nav class="small-header__nav">
+            <ul class="small-header__nav-list">
+                <li class="header__nav-list-element">
+                    <a href="index.html" class="header__nav-list-element-anchor header__nav-list-element-anchor--choosed">Accueil</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="blogs.html" class="header__nav-list-element-anchor">Blog</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="http://matthieu.icplogiciel.fr" class="header__nav-list-element-anchor">Site</a>
+                </li>
+                <li class="header__nav-list-element">
+                    <a href="a-propos.html" class="header__nav-list-element-anchor">A propos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <Section class="section section--hero">
+        <div class="section__card section__card--hero" data-ishero="true">
+            <h2 class="section__card-title section__card-title--hero"> 
+                Blogs
+            </h2>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Cette séction du site va ressenser mes notes prises tout au long de mon stage sous forme de blogs post sur différents aspects de mon stage.
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Chaque blog post est une carte.    
+            </p>
+            <p class="section__card-paragraph section__card-paragraph--hero">
+                Bonne lecture a vous.
+            </p>
+        </div>
+    </Section>
+<!--Mise en situation-->
+    <Section class="section">
+        <div class="section__card">
+            <h2 class="section__card-title">
+                Mise en situation 📖
+            </h2>
+            <h3 class="section__card-subTitle">
+                Ce post va principalement parler de l'endroit ou se passe mon stage et ma mission a accomplir.
+            </h3>
+            <p class="section__card-paragraph">
+                Je passe donc mon stage de 2e année à Kantique, une ESN.
+            </p>
+            <p class="section__card-paragraph">
+                Leurs bureaux se trouvent à Louviers (27400) en Normandie. Je vous mets ci-dessous une photo du bureau dans laquelle je travaille.
+            </p>
+            <img class="section__card-image" src="assets/bureau kantique.jpg" alt="bureau">
+            <p class="section__card-paragraph">
+                Ma mission pour ce stage de 6 semaines sera de retravailler le site web d' ICP.dec, une entreprise de comptabilité. <br>
+                Je vais donc essayer de faire le site  à la main en utilisant du html, js (Vanilla) et css (sass) de sorte a ce que je puisse le réutiliser pour d'autres projets.
+            </p>
+        </div>
+    </Section>
+<!--UI/UX-->
+    <Section class="section">
+        <div class="section__card">
+            <h2 class="section__card-title">
+                UI/UX 🎨
+            </h2>
+            <h3 class="section__card-subTitle">
+                Ce post va parler de mon travail sur figma pendant le début de la première semaine de stage.
+            </h3>
+            <p class="section__card-paragraph">
+                Je viens de finir ma visite des locaux et on a fini de m'expliquer ma mission. <br>
+                Je pense que je vais passer les premiers jours sur figma pour travailler mon design ui/ux avant de commencer a coder.
+            </p>
+            <p class="section__card-paragraph">
+                J'écris plus ou moins à la fin du design des différents éléments sur figma. <br>
+                J'ai pu discuter avec le client des sites des concurrents et en ressortir avec une meilleure idéée de ce que l'on attend de moi. <br>
+                J'ai aussi fait l'erreur de regarder le mauvais site la première fois en allant sur ICP (Institut Catholique de Paris) au lieu de ICP.dec (Indicateur Clé de Performance Des Experts-Comptables).
+            </p>
+            <p class="section__card-paragraph">
+                Voici une comparaison d'ICP.dec et le principal concurrent ainsi qu'une première idée pour le design du site et le fichier figma final.
+            </p>
+            <img class="section__card-image" src="assets/Table comparaison.png" alt="comparaison">
+            <img class="section__card-image" src="assets/Idées.png" alt="idées">
+            <img class="section__card-image" src="assets/fichier figma.png" alt="figma">
+            <p class="section__card-paragraph">
+                J'en aurai bien bavé avec le vector art pour les logos, mais je vais pouvoir passer au code à partir de demain. <br>
+                Ça sera probablement le thème du prochain post.
+            </p>
+        </div>
+    </Section>
+<!--Sass-->
+    <Section class="section">
+        <div class="section__card">
+            <h2 class="section__card-title">
+                Sass 💅
+            </h2>
+            <h3 class="section__card-subTitle">
+                Ce blog va parler de Sass, qu'est ce que c'est et pourquoi j'en suis devenue accro.
+            </h3>
+            <p class="section__card-paragraph">
+                Je commence à utiliser sass à partir d'aujourd'hui suite à l'influence de plusieurs vidéos. <br>
+                Je ne sais pas encore ce que ça va donner, mais il semblerait que ça facilite grandement le Css ce qui devrait être une bonne chose vu que je ne brille pas en front-end.
+            </p>
+            <p class="section__card-paragraph">
+                Update après avoir expérimenté avec Sass pendant 2 jours. Je vais quand même devoir retravailler le css, car mes bases sont bancales, mais ça devrait le faire avec la documentation <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">Mozilla</a> et <a href="https://www.w3schools.com/css/default.asp">W3School</a> <br>
+                Cependant voici ce que j'ai appris de Sass.
+            </p>
+            <ul class="section__card-list">
+                <li class="section__card-list-element">Sass est une version du css plus proche d'un langage de programmation grâce a ses fonctions et boucles.</li>
+                <li class="section__card-list-element">Sass n'est pas un langage fait pour être utiliser de suite, il doit d'abord passer par un compiler pour le convertir en css.</li>
+                <li class="section__card-list-element">Sass a 2 formats, le .sass et .scss, le .sass marche grâce a l'indentation.</li>
+            </ul>
+            <p class="section__card-paragraph">
+                Je mets ci-dessous une vidéo qui résume parfaitement le langage.
+            </p>
+            <iframe class="section__card-video" width="560" height="315" src="https://www.youtube.com/embed/akDIJa0AP5c?si=hGoivfp6JT8Q0DDa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </Section>
+<!--Le bac a sable-->
+    <Section class="section">
+        <div class="section__card">
+            <h2 class="section__card-title">
+                Bac a sable (test.html) 🛝
+            </h2>
+            <h3 class="section__card-subTitle">
+                Ce blog va parler du fichier <b>"test.html"</b> dans lequel le j'ai créé tous les éléments.
+            </h3>
+            <p class="section__card-paragraph">
+                J'ai fini de créer tous les éléments que je pourrais utiliser sur le site. <br>
+                J'ai un fichier "test.html" rempli d'éléments et de sections qui n'ont rien à voir entre eux, mais au moins je sais qu'ils sont tous responsive. <br>
+                Je vais donc partager le lien de cette page <a href="test.html">ICI</a>.
+            </p>
+            <p class="section__card-paragraph">
+                Voici un screen-shot de la page avec le css pour l'entreprise.
+            </p>
+            <img class="section__card-image" src="assets/test html.png" alt="test html">
+            <p class="section__card-paragraph">
+                Malheureusement certains éléments ne vont pas être utilisé comme le petit footer blanc.
+            </p>
+        </div>
+    </Section>
+<!--Site final-->
+    <Section class="section">
+        <div class="section__card">
+            <h2 class="section__card-title">
+                Site final 🏆
+            </h2>
+            <h3 class="section__card-subTitle">
+                Ce blog sera le dernier en rapport avec mon stage, il parlera du site final.
+            </h3>
+            <p class="section__card-paragraph">
+                Plus que 2 jours avant la fin de mon stage. <br>
+                Il me reste encore quelques pages à faire, mais sinon le site est quasiment fini. <br>
+                Malheureusement, mon rendu de stage est avant la fin du stage, il n'y a pas encore la version final de mon site en ligne. <br>
+                Je la mettrais <a href="#">ICI</a> quand elle le sera.
+            </p>
+            <p class="section__card-paragraph">
+                Ce stage m'aura tout de même permis de m'améliorer dans des langages vue en première année et m'aura réconcilié avec le JS. <br>
+                Il m'aura aussi permis de découvrir le sass qui me servira fortement en dev web.
+            </p>
+            <p class="section__card-paragraph">
+                Prochaine étape, l'alternance.
+            </p>
+            <h2 class="section__card-title">
+                Merci d'avoir lu mon blog 🙌
+            </h2>
+        </div>
+    </Section>
+
+    <footer class="footer">
+        <div class="footer__pictureContainer">
+            <picture class="footer__pictureContainer-picture">
+                <img src="assets/logo-small-white.svg" alt="Llogo petit">
+            </picture>
+        </div>
+        <ul class="footer__contactList">
+            <li class="footer__contactList-element">
+                <img class="footer__contactList-element-image" src="assets/github.png" alt="logo telephone">
+                <p class="footer__contactList-element-paragraph"><a href="https://github.com/BERGER-Matthieu">BERGER-Matthieu</a></p>
+            </li>
+            <li class="footer__contactList-element">
+                <img class="footer__contactList-element-image" src="assets/Mail.png" alt="logo mail">
+                <p class="footer__contactList-element-paragraph">matthieu.berger@ynov.com</p>
+            </li>
+            <li class="footer__contactList-element">
+                <img class="footer__contactList-element-image" src="assets/LinkedIn.png" alt="logo address">
+                <p class="footer__contactList-element-paragraph"><a href="https://www.linkedin.com/in/matthieu-berger-8697a8235/">Matthieu Berger</a></p>
+            </li>
+        </ul>
+</footer>
+</body>
+</html>
+<script src="js/front.js" type="module"></script>
