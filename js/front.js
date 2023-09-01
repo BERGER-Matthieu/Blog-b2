@@ -11,7 +11,7 @@ const cards = document.querySelectorAll(".section__card");
 let buttons = document.querySelectorAll(".header__nav-list-element-anchor");
 let smallButtons = document.querySelectorAll(".small-header__nav-list-element-anchor");
 
-const replaceText = ['Accueil', 'Logiciel', 'Tarifs', 'A propos', 'Démo'];
+const replaceText = ['Accueil', 'Blogs', 'Site', 'A propos'];
 const buttonsText = ((buttons) => {
     let returnArray = [];
     buttons.forEach((button) => {
